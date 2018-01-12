@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>PENTWB03</title>
+</head>
+<body>
+    <div id="contenedor-app">
+        <div class="titulo">  
+            <div class="wrap">
+                <br><h1>Agenda del Dia Jquery</h1>
+            </div>
+        </div>
+
+        <div class="principal">
+            <div class="wrap">
+                <form class="formulario" id="crear-form">
+                    <input id="crear-input" required="" type="text" placeholder="Agregar Tarea..." />
+                    <button class="myButton">Agregar</button>
+                </form>
+            </div>
+        </div>
+          
+            <div class="wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Actividad</th>
+                            <th></th>
+                        </tr>
+
+                        <br><tbody id="lista-todos" class="" />
+
+                    </thead>
+                </table>
+            </div>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
